@@ -1,0 +1,124 @@
+
+
+.main_div{
+
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	/*font-size: 5PX;*/
+
+}
+.context_div{
+	height: 550px;
+	width: 1200px;
+	background-color: black;
+	color: white;
+	padding: 50px;
+
+}
+.heading{
+	
+	color:#ffc107; 
+}
+.income_form input{
+	background-color: transparent;
+	border-bottom: 1px solid #837f86 !important;
+	outline: none;
+	border: none;
+	color:white;
+	height:25px;
+	width: 225px;
+	font-size: 18px; 
+	transition: all 0.5s ease-in-out ;
+}
+.income_form button{
+	font-size: 18px;
+	padding: 5px 15px;
+}
+.income_form button:focus{
+	box-shadow: none;
+}
+.income_form button:active{
+	transition: all 0.1s;
+	transform:translate(0px, 3px);
+	box-shadow:0px;
+}
+
+.income_form input:focus{
+	background-color: transparent;
+	border-bottom: 1px solid #22c346  !important;
+	outline: none;
+	border: none;
+	color:white;
+	box-shadow: none;
+}
+.expnce_form input{
+	background-color: transparent;
+	border-bottom: 1px solid #837f86 !important;
+	outline: none;
+	border: none;
+	color:white;
+	height:25px;
+	width: 225px;
+	font-size: 18px;
+	transition: all 0.5s ease-in-out ;
+
+}
+.expnce_form input:focus{
+	background-color: transparent;
+	border-bottom: 1px solid red !important;
+	outline: none;
+	border: none;
+	color:white;
+
+	box-shadow: none;
+}
+.expnce_form button{
+	font-size: 18px;
+	padding: 5px 15px;
+}
+.expnece_div{
+	margin-left: -20px;
+}
+.Trasaction_incomelist,
+.Trasaction_expencelist {
+	width: 225px;
+}
+
+.Trasaction_incomelist li{
+	background-color: #28a745;
+	list-style: none;
+	font-size: 16px;
+	padding: 2px 8px;
+	width: 220px;
+}
+.Trasaction_expencelist li{
+	background-color:#dc3545;
+	list-style: none;
+	font-size: 16px;
+	padding: 2px 8px;
+}
+.delete_button{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+.delete_button:focus{
+	border: none;
+	box-shadow: none;
+	outline:none;
+}
+.delete_button:active{
+	transform: scale(1.5);
+	transition: all 0.1s;
+}
+.income_total{
+	color: #22c346;
+}
+.expnece_total{
+	color: #dc3545;
+}
